@@ -11,6 +11,10 @@ h1 {
 }
 
 .header {
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    width: 100%; 
     text-align: center;
     border: 2px solid palevioletred;
     border-radius: 5px;
@@ -21,17 +25,18 @@ h3 {
     color: aquamarine;
 }
 
-.sidebarContent {
-    position: fixed;
-    left: 20px; 
-    top: 30px; 
-    height: 100px; 
-    width: 300px; 
-    padding: 0; 
+.mainThing {
+    position: relative; 
+
 }
 
-.sidebarContent p {
-    text-align: center;
+.sidebarContent {
+    border: 2px solid red;
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    width: 30em; 
+    padding: 0; 
 }
 
 
