@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box; 
+    font-family: "Courier New", Courier, monospace; 
+    background-color:rgb(5, 80, 41);
+    color: black;
+}
+
+h1 {
+    color: aqua;
+
+}
+
+.header {
+    text-align: center;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    
+}
+
+h3 {
+    color: aquamarine;
+}
+
+.sidebarContent {
+    position: fixed;
+    left: 20px; 
+    top: 30px; 
+    height: 100px; 
+    width: 300px; 
+    padding: 0; 
+}
+
+.sidebarContent p {
+    text-align: center;
+}
+
+
+body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
